@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Overview image](overview.png)
+
 This is a very simple GUI program for calculating the change from a price and the money given.
 
 ## Dependencies
