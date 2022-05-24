@@ -185,6 +185,7 @@ int main(int argc, char** argv) {
     window.set_title("chngclcltr");
     window.set_border_width(10);
     window.set_default_size(640, 640);
+    window.set_size_request(480, 640);
     window.add(grid);
     window.show_all();
     return app->run(window);
