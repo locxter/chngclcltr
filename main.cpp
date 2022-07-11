@@ -4,7 +4,7 @@
 // Main function
 int main(int argc, char** argv) {
     // UI components
-    Glib::RefPtr<Gtk::Application> app = Gtk::Application::create(argc, argv, "com.github.locxter.chngclcltr");
+    Glib::RefPtr<Gtk::Application> app = Gtk::Application::create("com.github.locxter.chngclcltr");
     Gtk::Window window;
     Gtk::Grid grid;
     Gtk::Label priceLabel("Price:");
