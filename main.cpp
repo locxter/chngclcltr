@@ -8,9 +8,9 @@ int main(int argc, char** argv) {
     Gtk::Window window;
     Gtk::Grid grid;
     Gtk::Label priceLabel("Price:");
-    Gtk::SpinButton priceInput(Gtk::Adjustment::create(0, 0.01, 1000, 0.01), 0.01, 2);
+    Gtk::SpinButton priceInput(Gtk::Adjustment::create(0, 0.01, 1000, 0.01), 0, 2);
     Gtk::Label moneyGivenLabel("Money given:");
-    Gtk::SpinButton moneyGivenInput(Gtk::Adjustment::create(0, 0.01, 1000, 0.01), 0.01, 2);
+    Gtk::SpinButton moneyGivenInput(Gtk::Adjustment::create(0, 0.01, 1000, 0.01), 0, 2);
     Gtk::Button calculateButton("Calculate");
     Gtk::Label changeLabel("Change:");
     Gtk::Label changeData;
