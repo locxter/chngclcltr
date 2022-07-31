@@ -51,6 +51,7 @@ int main(int argc, char** argv) {
         int moneyGiven = std::round(moneyGivenInput.get_value() * 100);
         int change = moneyGiven - price;
         if (change >= 0) {
+            // Calculate change with the help of integer division
             std::string changeString = std::to_string(change / 100.0);
             changeData.set_label(changeString.substr(0, changeString.size() - 4));
             numberOf500EuroNotesData.set_label(std::to_string(change / 50000));
@@ -83,6 +84,7 @@ int main(int argc, char** argv) {
             change -= (change / 2) * 2;
             numberOf1CentCoinsData.set_label(std::to_string(change / 1));
         } else {
+            // Reset labels if no change is needed
             changeData.set_label("");
             numberOf500EuroNotesData.set_label("");
             numberOf200EuroNotesData.set_label("");
