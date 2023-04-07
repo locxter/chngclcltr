@@ -1,5 +1,5 @@
-#include <iostream>
 #include <gtkmm-3.0/gtkmm.h>
+#include <iostream>
 
 // Main function
 int main(int argc, char** argv) {
